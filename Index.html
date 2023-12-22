@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>loops</title>
+        <style>
+            h1{
+    text-align:center;
+    color:#ff1515;
+    }
+    p{
+    text-indent:40px;
+}
+h3{
+    text-align:right;
+    color:green;
+}
+th{
+    background-color:orange;
+}
+        </style>
+    </head>
+    <body>
+        <h1 id="loops" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjpULeZjOLrC5zGyJsCYc9AlNGKhC7ppuOyQ&usqp=CAU ');background-repeat:no-repeat;background-attachmemt:fixed;background-size:cover;">loops</h1>
+        <p>a loop is a control structure that allows a certain block of code to be executed repeatedly, either a specific number of times or until a particular condition is met. Loops help in automating repetitive tasks and are fundamental for efficient and concise program design. There are three loops available in C-language.</p>
+        <ol style="background-color:lightgreen;border:5px double black;"><br>
+            <li>while loop</li>
+            <li>do-while loop</li>
+            <li>for loop</li><br>
+        </ol><hr><br><br>
+        
+        <h3 id="while">while loop</h3>
+        <p>a while loop is a control flow statement that allows code to be executed repeatedly as long as a specified condition is true. </p>
+        <div>
+           <sup style="color:red;">**</sup><b>important points :- </b>
+            <ul style="background-color:skyblue;">
+                <br><li>while loop first checks the condition if the condition is true, the block of code execute. Otherwise, the block of code never gonna execute. </li><br>
+                <li>minimum execution of while loop is "zero".</li><br>
+                <li>While loops are suitable when the number of iterations is not known beforehand or based on a dynamic condition.</li><br>
+                <li> It means if we does not know how many times we need to execute the code, we only know about the specific condition we need to stop, then while loop is used. </li><br>
+            </ul>
+        </div>
+        <h4><b>general syntax :- </b></h4>
+        <div style="background-color:silver;">  <br>          
+            <b style="color:crimson;">while ( condition )<br>{<br><br>//code to be executed<br><br>}</b><br><br>
+        </div>
+        <div>
+            <h4><b>flowchart :- </b></h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uAq6zG2wdsWqw_I1fiYQ3pp363TFkVTQWg&usqp=CAU" alt="wrong" height="250px" width="350px">
+        </div><hr><br><br>
+        
+        <h3 id="doWhile">do-while loop</h3>
+        <p> do-while loop is used to repeatedly execute a block of code while a given condition is true. </p>
+        <div>
+           <sup style="color:red;">**</sup><b>important points :- </b>
+            <ul style="background-color:skyblue;">
+                <br><li>It's function is same as while loop.</li><br>
+                <li>do-while loop extecute the block of code once, without checking the condition. </li><br>
+                <li>minimum execution of do-while loop is "one".</li><br>
+                <li>do-while loops are suitable for that programs in which a specific code is need to run and then depends upon the user to proceed further or not. This is done by set a condition to ask for user's opinion. </li><br>
+            </ul>
+        </div>
+        <h4><b>general syntax :- </b></h4>
+        <div style="background-color:silver;">  <br>          
+            <b style="color:crimson;">do<br>{<br><br>//code to be executed<br><br>}<br>while ( condition );</b><br><br>
+        </div>
+        <div>
+            <h4><b>flowchart :- </b></h4>
+            <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yBZLy8MdDDB9aFKya9vIVL18Pe7ntJkJxA&usqp=CAU" alt="wrong" height="300px" width="350px">
+        </div><hr><br><br>
+        
+        <h3>difference between while and do-while</h3>
+            <table border="5px double green" cellspacing="0" cellpadding="10" style="text-align:center;">
+                <tr>
+                    <th>while loop</th>
+                    <th>do while loop</th>
+                </tr>
+                <tr>
+                    <td>Condition is checked first then statement(s) is executed.
+                    <td>Statement(s) is executed atleast once, thereafter condition is checked.</td>
+                </tr>
+                <tr>
+                    <td>It might occur statement(s) is executed zero times, If condition is false.</td>
+                    <td>At least once the statement(s) is executed.</td>    
+                </tr>
+                <tr>
+                    <td>No semicolon at the end of while. while(condition)</td>
+                    <td>at the end of while. while(condition);</td>
+                </tr>
+                <tr>
+                    <td>If there is a single statement, brackets are not required.</td>
+                    <td>Brackets are always required.</td>
+                </tr>
+                <tr>
+                    <td> in condition is initialized before the execution of loop.</td>
+                    <td> may be initialized before or within the loop.</td>
+                </tr>
+                <tr>
+                    <td> loop is entry controlled loop.</td>
+                    <td> loop is exit controlled loop.</td>
+                </tr>
+            </table><hr><br><br>
+        
+        <h3 id="for">for loop</h3>
+        <p>A for loop is a control flow statement in many programming languages, including C. It provides a concise way to write a loop that repeats a specific block of code for a predetermined number of times. The basic syntax of a for loop includes three components: initialization, condition, and update. These components work together to control the loop's execution.</p>
+        <div>
+           <sup style="color:red;">**</sup><b>important points :- </b>
+            <ul style="background-color:skyblue;">
+                <br><li><b>Initialization:</b> This part is executed once at the beginning of the loop and is often used to initialize a loop control variable.</li><br>
+                <li><b>Condition:</b> The loop continues executing as long as this condition is true. If the condition becomes false, the loop exits.</li><br>
+                <li><b>Update:</b> This part is executed after each iteration of the loop and is typically used to update the loop control variable. Generally Increment and Decrement is used for update. </li><br>                
+            </ul>
+        </div>
+        <h4><b>general syntax :- </b></h4>
+        <div style="background-color:silver;">  <br>          
+            <b style="color:crimson;">for(initialization ; condition ; update)<br>{<br><br>// code to be repeated<br><br>} </b><br><br>
+        </div>
+        <div>
+            <h4><b>flowchart :- </b></h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr85NEBsQ7LaV_6BfnCGJdL7FNbJ-SkkZ6kr0K52cml2lX1NXaHIgaS4Q&s=10" alt="wrong" height="350px" width="350px">
+        </div><hr><br><br>
+    </body>
+</html>
